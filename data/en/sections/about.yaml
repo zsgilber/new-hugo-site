@@ -1,0 +1,47 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Engineer
+# your company information
+company:
+  name: Myndshft
+  url: https://www.myndshft.com
+
+# your resume. this file path should be relative to your "static" directory
+resume: "resume.pdf"
+
+# a summary about you
+summary: I am a software engineer, currently working on building an enterprise-scale healthcare automation platform at Myndshft. I am passionate about building robust, maintainable, and performant software. I am always looking for new challenges and things to learn. 
+
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  - name: Github
+    icon: "fab fa-github"
+    url: https://github.com/zsgilber
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: https://www.linkedin.com/in/zsgilber
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+  - name: Love to Learn
+    percentage: 95
+    color: orange
+  - name: Something Else
+    percentage: 90
+    color: blue
+  - name: Collaboration
+    percentage: 85
+    color: yellow

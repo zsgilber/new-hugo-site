@@ -1,0 +1,243 @@
+{
+  "$schema": "https://json.schemastore.org/resume",
+  "basics": {
+    "name": "Zach Gilbert",
+    "label": "Software Engineer at Myndshft",
+    "image": "",
+    "email": "zsgilber@gmail.com",
+    "phone": "480-313-2126",
+    "url": "https://www.zachgilbert.dev",
+    "summary": "I am a software engineer, currently working on building an enterprise-scale healthcare automation platform at Myndshft. I am passionate about building robust, maintainable, and performant software. I am always looking for new challenges and things to learn. \n",
+    "location": {
+      "countryCode": "US",
+      "address": "Phoenix, Arizona"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "zsgilber",
+        "url": "https://www.linkedin.com/in/zsgilber"
+      },
+      {
+        "network": "Github",
+        "username": "zsgilber",
+        "url": "https://github.com/zsgilber"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Myndshft",
+      "position": "Software Engineer",
+      "startDate": "2020-06-30",
+      "highlights": [],
+      "summary": "- Member of the core product team developing backend services to power our healthcare automation platform, including eligibility, patient financial responsibility, and prior auth determination APIs.\n- Focused on writing clear and maintanable code to express core business domain logic.\n- Using Spring Boot web framework and very much enjoying writing code in Kotlin.\n- Helped design events-based service architecture to ensure availability and resiliency.\n- Responsible for monitoring and operations of APIs we own, including on-call responsibility.",
+      "url": "https://www.myndshft.com"
+    },
+    {
+      "name": "Myndshft",
+      "position": "Software Engineer",
+      "startDate": "2018-06-30",
+      "endDate": "2020-06-30",
+      "highlights": [],
+      "summary": "- Member of the architecture team that built our core platform from from conception to a stable and robust production system serving ~1000 complex transactions per day.\n- Responsible for cloud infrastructure (Google Cloud Platform), ops and deployment (Kubernetes). \n- Implemented CI/CD using Bitbucket Pipelines.\n- Introduced Infrastructure as Code to our platform using Terraform.\n- Designed and wrote microservices in Go.",
+      "url": "https://www.myndshft.com"
+    },
+    {
+      "name": "Optimum HQ Technologies LLC",
+      "position": "Business Systems Analyst",
+      "startDate": "2017-10-31",
+      "endDate": "2018-03-31",
+      "highlights": [],
+      "summary": "- Designed client solutions using the OptimumHQ’s workflow-based business automation platform.\n- Led requirements gathering and documentation, solution architecture, and project planning for client integrations. \n- Led all aspects of client integration, including data modeling, workflow modeling, data requests through internal API, and front end implementation using HTML/ CSS/Javascript.",
+      "url": ""
+    },
+    {
+      "name": "Amazon",
+      "position": "Business Analyst",
+      "startDate": "2016-10-31",
+      "endDate": "2017-10-31",
+      "highlights": [],
+      "summary": "- Leader of analytics for hybrid transportation/customer service team responsible for proactively monitoring Amazon's large item network.\n- Delivered weekly metrics and Key Performance Indicators, focus on metrics resulted in  ~$2 million year over year savings in Large Item concessions.\n- Wrote, maintained, and optimized complex SQL queries against Enterprise Data Warehouses (Oracle and Amazon Redshift). \n- Built dashboard to track customer service metrics for my team using internal tool based on Elasticsearch/Kibana.",
+      "url": "https://www.linkedin.com/company/amazon/"
+    },
+    {
+      "name": "Private Math and Science Tutoring",
+      "position": "Tutor",
+      "startDate": "2015-09-30",
+      "endDate": "2017-02-28",
+      "highlights": [],
+      "summary": "- Private tutor in a wide range of scientific and mathematical subjects. \n- Math subjects include algebra, geometry, calculus, statistics, & probability.",
+      "url": ""
+    },
+    {
+      "name": "Quality Distributors, LLC",
+      "position": "Reporting Analyst",
+      "startDate": "2016-01-31",
+      "endDate": "2016-10-31",
+      "highlights": [],
+      "summary": "- Responsible for weekly data analysis and reporting for 40 T-Mobile dealers enrolled in T-Mobile Premium Retailer program.\n- Developed and implemented company-wide sales reporting for hundreds of prepaid wireless dealers.\n- Designed Excel-based interactive dashboards to track Key Performance Indicators. \n- Use advanced Excel skills and knowledge of data cleaning, mining, and analysis to more intelligently guide business.",
+      "url": "https://www.linkedin.com/company/qdi/"
+    },
+    {
+      "name": "Edgenuity Inc.",
+      "position": "Concept Coach",
+      "startDate": "2014-01-31",
+      "endDate": "2015-08-31",
+      "highlights": [],
+      "summary": "- Tutored students in math and sciences for online learning company. \n- Explained complex mathematical and scientific concepts in a clear manner through LivePerson online chat program.\n- Expanded strong customer service skills helping students navigate online course system.",
+      "url": "https://www.linkedin.com/company/edgenuity-inc-/"
+    },
+    {
+      "name": "Arizona State University",
+      "position": "School of Life Sciences Undergraduate Research (SOLUR) Fellow",
+      "startDate": "2009-12-31",
+      "endDate": "2011-08-31",
+      "highlights": [],
+      "summary": "LIMB Lab (Laboratory for Integrative Motor Behavior) School of Life Sciences, Arizona State University\nDr. Devin Jindrich, Principal Investigator\nProject: Pulsed Ultrasound for the Rehabilitation of Movement after Spinal Cord Injury",
+      "url": "https://www.linkedin.com/school/arizona-state-university/"
+    },
+    {
+      "name": "Arizona State University",
+      "position": "Undergraduate Research Assistant",
+      "startDate": "2008-12-31",
+      "endDate": "2011-12-31",
+      "highlights": [],
+      "summary": "Tyler Laboratory of Neurobiology and Bioimaging \nSchool of Life Sciences, Arizona State University \nDr. William Tyler, Principal Investigator\nProject: Ultrasonic Neuromodulation of the Mouse Central Nervous System",
+      "url": "https://www.linkedin.com/school/arizona-state-university/"
+    },
+    {
+      "name": "Baylor College of Medicine",
+      "position": "Research Intern",
+      "startDate": "2009-05-31",
+      "endDate": "2009-08-31",
+      "highlights": [],
+      "summary": "SMART (Summer Medical and Research Training) Program\nDepartment of Molecular and Human Genetics Baylor College of Medicine\nDr. Hugo Bellen, Principal Investigator\nProject: Developing a Disease Model of Amyotrophic Lateral Sclerosis in\nDrosophila",
+      "url": "https://www.linkedin.com/school/baylor-college-of-medicine/"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Arizona State University",
+      "area": "Mathematics",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2006-12-31",
+      "endDate": "2011-12-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Arizona State University",
+      "area": "Biological Sciences",
+      "studyType": "Bachelor’s Degree",
+      "startDate": "2006-12-31",
+      "endDate": "2011-12-31",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kotlin",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Shell Scripting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Myndshft",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Infrastructure as code (IaC)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Cloud Platform (GCP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST API",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring Boot",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Terraform",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Go (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microservices",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "en",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  },
+  "certificates": []
+}

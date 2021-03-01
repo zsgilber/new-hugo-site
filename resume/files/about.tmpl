@@ -1,0 +1,46 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: {{ (index .Work 0).Position }}
+# your company information
+company:
+  name: {{ (index .Work 0).Name }}
+  url: {{ (index .Work 0).Url }}
+
+# your resume. this file path should be relative to your "static" directory
+resume: "resume.pdf"
+
+# a summary about you
+summary: {{ .Basics.Summary }}
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  - name: Github
+    icon: "fab fa-github"
+    url: {{ range $profile := .Basics.Profiles }}{{ if eq $profile.Network "Github" }}{{ $profile.Url }}{{ end }}{{ end }}
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: {{ range $profile := .Basics.Profiles }}{{ if eq $profile.Network "LinkedIn" }}{{ $profile.Url }}{{ end }}{{ end }}
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+  - name: Love to Learn
+    percentage: 95
+    color: orange
+  - name: Something Else
+    percentage: 90
+    color: blue
+  - name: Collaboration
+    percentage: 85
+    color: yellow
