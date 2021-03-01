@@ -35,3 +35,6 @@ params:
   # Currently, you can just hide it from the footer.
   newsletter:
     enable: false
+
+  # Background image of the landing page
+  background: /images/site/background.jpg
