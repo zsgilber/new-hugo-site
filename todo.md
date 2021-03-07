@@ -6,3 +6,5 @@ TODO:
 - write up README for publishing new content, and maybe for how it's all set up
 - write up my resume stuff
 - ~~get my resume.json from gist~~
+- automate building via the go resume generation
+- 
