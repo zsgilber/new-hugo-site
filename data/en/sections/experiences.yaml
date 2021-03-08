@@ -75,6 +75,12 @@ experiences:
         # give some points about what was your responsibilities at the company.
         responsibilities:
         
+          - Designed client solutions using the OptimumHQ’s workflow-based business automation platform.
+        
+          - Led requirements gathering and documentation, solution architecture, and project planning for client integrations.
+        
+          - Led all aspects of client integration, including data modeling, workflow modeling, data requests through internal API, and front end implementation using HTML/ CSS/Javascript.
+        
     
 
   - company:
@@ -94,24 +100,13 @@ experiences:
         # give some points about what was your responsibilities at the company.
         responsibilities:
         
-    
-
-  - company:
-      name: Private Math and Science Tutoring
-      url: 
-      location: 
-      # company overview
-      overview: 
-    positions:
-    
-      - designation: Tutor
-        start: 2015-09-30
-        # don't provide end date if you are currently working there. It will be replaced by "Present"
+          - Leader of analytics for hybrid transportation/customer service team responsible for proactively monitoring Amazon's large item network.
         
-        end: 2017-02-28
+          - Delivered weekly metrics and Key Performance Indicators, focus on metrics resulted in  ~$2 million year over year savings in Large Item concessions.
         
-        # give some points about what was your responsibilities at the company.
-        responsibilities:
+          - Wrote, maintained, and optimized complex SQL queries against Enterprise Data Warehouses (Oracle and Amazon Redshift). 
+        
+          - Built dashboard to track customer service metrics for my team using internal tool based on Elasticsearch/Kibana.
         
     
 
@@ -132,71 +127,12 @@ experiences:
         # give some points about what was your responsibilities at the company.
         responsibilities:
         
-    
-
-  - company:
-      name: Edgenuity Inc.
-      url: https://www.linkedin.com/company/edgenuity-inc-/
-      location: Scottsdale, AZ
-      # company overview
-      overview: 
-    positions:
-    
-      - designation: Concept Coach
-        start: 2014-01-31
-        # don't provide end date if you are currently working there. It will be replaced by "Present"
+          - Responsible for weekly data analysis and reporting for 40 T-Mobile dealers enrolled in T-Mobile Premium Retailer program.
         
-        end: 2015-08-31
+          - Developed and implemented company-wide sales reporting for hundreds of prepaid wireless dealers.
         
-        # give some points about what was your responsibilities at the company.
-        responsibilities:
+          - Designed Excel-based interactive dashboards to track Key Performance Indicators.
         
-    
-
-  - company:
-      name: Arizona State University
-      url: https://www.linkedin.com/school/arizona-state-university/
-      location: 
-      # company overview
-      overview: 
-    positions:
-    
-      - designation: School of Life Sciences Undergraduate Research (SOLUR) Fellow
-        start: 2009-12-31
-        # don't provide end date if you are currently working there. It will be replaced by "Present"
-        
-        end: 2011-08-31
-        
-        # give some points about what was your responsibilities at the company.
-        responsibilities:
-        
-    
-      - designation: Undergraduate Research Assistant
-        start: 2008-12-31
-        # don't provide end date if you are currently working there. It will be replaced by "Present"
-        
-        end: 2011-12-31
-        
-        # give some points about what was your responsibilities at the company.
-        responsibilities:
-        
-    
-
-  - company:
-      name: Baylor College of Medicine
-      url: https://www.linkedin.com/school/baylor-college-of-medicine/
-      location: 
-      # company overview
-      overview: 
-    positions:
-    
-      - designation: Research Intern
-        start: 2009-05-31
-        # don't provide end date if you are currently working there. It will be replaced by "Present"
-        
-        end: 2009-08-31
-        
-        # give some points about what was your responsibilities at the company.
-        responsibilities:
+          - Use advanced Excel skills and knowledge of data cleaning, mining, and analysis to more intelligently guide business.
         
     

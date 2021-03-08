@@ -10,8 +10,11 @@ import (
 
 func main() {
 
+	// I want to use my programming resume view for this site:
+	programmingResumePath := "views/programming_resume.json"
+
 	//unmarshal my resume.json into the structs generated via https://github.com/a-h/generate
-	jsonResumeFile, err := os.Open("resume.json")
+	jsonResumeFile, err := os.Open(programmingResumePath)
 	if err != nil {
 		log.Fatalf("error opening json resume file: %v", err)
 	}
