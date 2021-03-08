@@ -33,9 +33,22 @@ func main() {
 		log.Fatalf("error templating about: %v", err)
 	}
 
+	groupedWorkItems := groupWorkItemsBy(resume, func(workItems WorkItems) string {
+		return workItems.Name
+	})
+
+	for _, groupedItem := range groupedWorkItems {
+		fmt.Printf("key: %v\n", groupedItem.Key)
+	}
+
+	err = generateTemplatedFile(groupedWorkItems, "files/experiences.tmpl", "../data/en/sections/experiences.yaml")
+	if err != nil {
+		log.Fatalf("error templating about: %v", err)
+	}
+
 }
 
-func generateTemplatedFile(resume ResumeSchema, srcPath string, destPath string) error {
+func generateTemplatedFile(data interface{}, srcPath string, destPath string) error {
 	// open the templated yaml file
 	template, err := template.ParseFiles(srcPath)
 	if err != nil {
@@ -49,7 +62,7 @@ func generateTemplatedFile(resume ResumeSchema, srcPath string, destPath string)
 	}
 
 	// execute template
-	err = template.Execute(file, resume)
+	err = template.Execute(file, data)
 	if err != nil {
 		return fmt.Errorf("error executing template: %w", err)
 	}
@@ -57,4 +70,38 @@ func generateTemplatedFile(resume ResumeSchema, srcPath string, destPath string)
 	file.Close()
 
 	return nil
+}
+
+// This easier to do here than in the template, the Toha yaml expects positions grouped by company, but the
+// JSON resume just has a list, go let's do a groupBy. This need to be sorted also, so make it a slice.
+func groupWorkItemsBy(resume ResumeSchema, keySelector func(workItems WorkItems) string) []GroupedWorkItem {
+	groupBy := make([]GroupedWorkItem, 0)
+	for _, workItem := range resume.Work {
+		key := keySelector(*workItem)
+
+		if keyIndex, ok := keyIsInGroupBy(key, groupBy); ok {
+			groupBy[keyIndex].Items = append(groupBy[keyIndex].Items, *workItem)
+		} else {
+			itemToAppend := GroupedWorkItem{
+				Key:   key,
+				Items: []WorkItems{*workItem},
+			}
+			groupBy = append(groupBy, itemToAppend)
+		}
+	}
+	return groupBy
+}
+
+func keyIsInGroupBy(key string, groupBy []GroupedWorkItem) (index int, ok bool) {
+	for i, item := range groupBy {
+		if item.Key == key {
+			return i, true
+		}
+	}
+	return -1, false
+}
+
+type GroupedWorkItem struct {
+	Key   string
+	Items []WorkItems
 }

@@ -1,0 +1,202 @@
+# section information
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+
+  - company:
+      name: Myndshft
+      url: https://www.myndshft.com
+      location: Mesa, AZ
+      # company overview
+      overview: Myndshft is a building a next-gen healthcare automation platform, focused on freeing up people to do the work that matters.
+    positions:
+    
+      - designation: Software Engineer
+        start: 2020-06-30
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+        
+          - Member of the core product team developing backend services to power our healthcare automation platform, including eligibility, patient financial responsibility, and prior auth determination APIs.
+        
+          - Focused on writing clear and maintanable code to express core business domain logic.
+        
+          - Using Spring Boot web framework and very much enjoying writing code in Kotlin.
+        
+          - Helped design events-based service architecture to ensure availability and resiliency.
+        
+          - Responsible for monitoring and operations of APIs we own, including on-call responsibility.
+        
+    
+      - designation: Software Engineer
+        start: 2018-06-30
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        
+        end: 2020-06-30
+        
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+        
+          - Member of the architecture team that built our core platform from from conception to a stable and robust production system serving ~1000 complex transactions per day.
+        
+          - Responsible for cloud infrastructure (Google Cloud Platform), ops and deployment (Kubernetes).
+        
+          - Implemented CI/CD using Bitbucket Pipelines.
+        
+          - Introduced Infrastructure as Code to our platform using Terraform.
+        
+          - Designed and wrote microservices in Go.
+        
+    
+
+  - company:
+      name: Optimum HQ Technologies LLC
+      url: https://www.optimumhq.com/
+      location: Mesa, AZ
+      # company overview
+      overview: 
+    positions:
+    
+      - designation: Business Systems Analyst
+        start: 2017-10-31
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        
+        end: 2018-03-31
+        
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+        
+    
+
+  - company:
+      name: Amazon
+      url: https://www.amazon.com
+      location: Tempe, AZ
+      # company overview
+      overview: 
+    positions:
+    
+      - designation: Business Analyst
+        start: 2016-10-31
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        
+        end: 2017-10-31
+        
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+        
+    
+
+  - company:
+      name: Private Math and Science Tutoring
+      url: 
+      location: 
+      # company overview
+      overview: 
+    positions:
+    
+      - designation: Tutor
+        start: 2015-09-30
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        
+        end: 2017-02-28
+        
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+        
+    
+
+  - company:
+      name: Quality Distributors, LLC
+      url: https://www.linkedin.com/company/qdi/
+      location: Phoenix, AZ
+      # company overview
+      overview: 
+    positions:
+    
+      - designation: Reporting Analyst
+        start: 2016-01-31
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        
+        end: 2016-10-31
+        
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+        
+    
+
+  - company:
+      name: Edgenuity Inc.
+      url: https://www.linkedin.com/company/edgenuity-inc-/
+      location: Scottsdale, AZ
+      # company overview
+      overview: 
+    positions:
+    
+      - designation: Concept Coach
+        start: 2014-01-31
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        
+        end: 2015-08-31
+        
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+        
+    
+
+  - company:
+      name: Arizona State University
+      url: https://www.linkedin.com/school/arizona-state-university/
+      location: 
+      # company overview
+      overview: 
+    positions:
+    
+      - designation: School of Life Sciences Undergraduate Research (SOLUR) Fellow
+        start: 2009-12-31
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        
+        end: 2011-08-31
+        
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+        
+    
+      - designation: Undergraduate Research Assistant
+        start: 2008-12-31
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        
+        end: 2011-12-31
+        
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+        
+    
+
+  - company:
+      name: Baylor College of Medicine
+      url: https://www.linkedin.com/school/baylor-college-of-medicine/
+      location: 
+      # company overview
+      overview: 
+    positions:
+    
+      - designation: Research Intern
+        start: 2009-05-31
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        
+        end: 2009-08-31
+        
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+        
+    

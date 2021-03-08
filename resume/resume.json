@@ -28,20 +28,35 @@
   "work": [
     {
       "name": "Myndshft",
+      "description": "Myndshft is a building a next-gen healthcare automation platform, focused on freeing up people to do the work that matters.",
       "position": "Software Engineer",
       "startDate": "2020-06-30",
-      "highlights": [],
-      "summary": "- Member of the core product team developing backend services to power our healthcare automation platform, including eligibility, patient financial responsibility, and prior auth determination APIs.\n- Focused on writing clear and maintanable code to express core business domain logic.\n- Using Spring Boot web framework and very much enjoying writing code in Kotlin.\n- Helped design events-based service architecture to ensure availability and resiliency.\n- Responsible for monitoring and operations of APIs we own, including on-call responsibility.",
-      "url": "https://www.myndshft.com"
+      "highlights": [
+        "Member of the core product team developing backend services to power our healthcare automation platform, including eligibility, patient financial responsibility, and prior auth determination APIs.",
+        "Focused on writing clear and maintanable code to express core business domain logic.",
+        "Using Spring Boot web framework and very much enjoying writing code in Kotlin.",
+        "Helped design events-based service architecture to ensure availability and resiliency.",
+        "Responsible for monitoring and operations of APIs we own, including on-call responsibility."
+      ],
+      "summary": "",
+      "url": "https://www.myndshft.com",
+      "location": "Mesa, AZ"
     },
     {
       "name": "Myndshft",
       "position": "Software Engineer",
       "startDate": "2018-06-30",
       "endDate": "2020-06-30",
-      "highlights": [],
-      "summary": "- Member of the architecture team that built our core platform from from conception to a stable and robust production system serving ~1000 complex transactions per day.\n- Responsible for cloud infrastructure (Google Cloud Platform), ops and deployment (Kubernetes). \n- Implemented CI/CD using Bitbucket Pipelines.\n- Introduced Infrastructure as Code to our platform using Terraform.\n- Designed and wrote microservices in Go.",
-      "url": "https://www.myndshft.com"
+      "highlights": [
+        "Member of the architecture team that built our core platform from from conception to a stable and robust production system serving ~1000 complex transactions per day.",
+        "Responsible for cloud infrastructure (Google Cloud Platform), ops and deployment (Kubernetes).",
+        "Implemented CI/CD using Bitbucket Pipelines.",
+        "Introduced Infrastructure as Code to our platform using Terraform.",
+        "Designed and wrote microservices in Go."
+      ],
+      "summary": "",
+      "url": "https://www.myndshft.com",
+      "location": "Mesa, AZ"
     },
     {
       "name": "Optimum HQ Technologies LLC",
@@ -50,7 +65,8 @@
       "endDate": "2018-03-31",
       "highlights": [],
       "summary": "- Designed client solutions using the OptimumHQ’s workflow-based business automation platform.\n- Led requirements gathering and documentation, solution architecture, and project planning for client integrations. \n- Led all aspects of client integration, including data modeling, workflow modeling, data requests through internal API, and front end implementation using HTML/ CSS/Javascript.",
-      "url": ""
+      "url": "https://www.optimumhq.com/",
+      "location": "Mesa, AZ"
     },
     {
       "name": "Amazon",
@@ -59,7 +75,8 @@
       "endDate": "2017-10-31",
       "highlights": [],
       "summary": "- Leader of analytics for hybrid transportation/customer service team responsible for proactively monitoring Amazon's large item network.\n- Delivered weekly metrics and Key Performance Indicators, focus on metrics resulted in  ~$2 million year over year savings in Large Item concessions.\n- Wrote, maintained, and optimized complex SQL queries against Enterprise Data Warehouses (Oracle and Amazon Redshift). \n- Built dashboard to track customer service metrics for my team using internal tool based on Elasticsearch/Kibana.",
-      "url": "https://www.linkedin.com/company/amazon/"
+      "url": "https://www.amazon.com",
+      "location": "Tempe, AZ"
     },
     {
       "name": "Private Math and Science Tutoring",
@@ -77,7 +94,8 @@
       "endDate": "2016-10-31",
       "highlights": [],
       "summary": "- Responsible for weekly data analysis and reporting for 40 T-Mobile dealers enrolled in T-Mobile Premium Retailer program.\n- Developed and implemented company-wide sales reporting for hundreds of prepaid wireless dealers.\n- Designed Excel-based interactive dashboards to track Key Performance Indicators. \n- Use advanced Excel skills and knowledge of data cleaning, mining, and analysis to more intelligently guide business.",
-      "url": "https://www.linkedin.com/company/qdi/"
+      "url": "https://www.linkedin.com/company/qdi/",
+      "location": "Phoenix, AZ"
     },
     {
       "name": "Edgenuity Inc.",
@@ -86,7 +104,8 @@
       "endDate": "2015-08-31",
       "highlights": [],
       "summary": "- Tutored students in math and sciences for online learning company. \n- Explained complex mathematical and scientific concepts in a clear manner through LivePerson online chat program.\n- Expanded strong customer service skills helping students navigate online course system.",
-      "url": "https://www.linkedin.com/company/edgenuity-inc-/"
+      "url": "https://www.linkedin.com/company/edgenuity-inc-/",
+      "location": "Scottsdale, AZ"
     },
     {
       "name": "Arizona State University",

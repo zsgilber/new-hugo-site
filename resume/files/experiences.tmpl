@@ -1,0 +1,34 @@
+# section information
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+{{ range $workItem := . }}
+  - company:
+      name: {{ $workItem.Key }}
+      url: {{ (index $workItem.Items 0).Url }}
+      location: {{ (index $workItem.Items 0).Location }}
+      # company overview
+      overview: {{ (index $workItem.Items 0).Description }}
+    positions:
+    {{ range $item := $workItem.Items }}
+      - designation: {{ $item.Position }}
+        start: {{ $item.StartDate }}
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        {{ if ne $item.EndDate "" }}
+        end: {{ $item.EndDate }}
+        {{ end }}
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+        {{ range $highlight := $item.Highlights }}
+          - {{ $highlight }}
+        {{ end }}
+    {{ end }}
+{{ end }}
