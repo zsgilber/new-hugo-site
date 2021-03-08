@@ -46,7 +46,12 @@ func main() {
 
 	err = generateTemplatedFile(groupedWorkItems, "files/experiences.tmpl", "../data/en/sections/experiences.yaml")
 	if err != nil {
-		log.Fatalf("error templating about: %v", err)
+		log.Fatalf("error templating experiences: %v", err)
+	}
+
+	err = generateTemplatedFile(resume, "files/education.tmpl", "../data/en/sections/education.yaml")
+	if err != nil {
+		log.Fatalf("error templating education: %v", err)
 	}
 
 }

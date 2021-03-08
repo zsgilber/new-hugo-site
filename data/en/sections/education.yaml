@@ -1,0 +1,28 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+
+- name: "B.S. in Mathematics"
+  icon: " fa-calculator " 
+  timeframe: "2006 - 2011"
+  institution:
+    name: Arizona State University
+    url: https://asu.edu
+
+- name: "B.S. in Biological Sciences"
+  icon: " fa-brain " 
+  timeframe: "2006 - 2011"
+  institution:
+    name: Arizona State University
+    url: https://asu.edu
+
+

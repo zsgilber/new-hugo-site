@@ -108,19 +108,21 @@
     {
       "institution": "Arizona State University",
       "area": "Mathematics",
-      "studyType": "Bachelor's Degree",
-      "startDate": "2006-12-31",
-      "endDate": "2011-12-31",
-      "gpa": "",
+      "studyType": "B.S.",
+      "startDate": "2006",
+      "endDate": "2011",
+      "score": "",
+      "url": "https://asu.edu",
       "courses": []
     },
     {
       "institution": "Arizona State University",
       "area": "Biological Sciences",
-      "studyType": "Bachelor’s Degree",
-      "startDate": "2006-12-31",
-      "endDate": "2011-12-31",
-      "gpa": "",
+      "studyType": "B.S.",
+      "startDate": "2006",
+      "endDate": "2011",
+      "score": "",
+      "url": "https://asu.edu",
       "courses": []
     }
   ],
