@@ -11,7 +11,7 @@ import (
 func main() {
 
 	// I want to use my programming resume view for this site:
-	programmingResumePath := "views/programming_resume.json"
+	programmingResumePath := "resume/views/programming_resume.json"
 
 	//unmarshal my resume.json into the structs generated via https://github.com/a-h/generate
 	jsonResumeFile, err := os.Open(programmingResumePath)
@@ -26,12 +26,12 @@ func main() {
 		log.Fatalf("error decoding json resume file: %v", err)
 	}
 
-	err = generateTemplatedFile(resume, "files/author.tmpl", "../data/en/author.yaml")
+	err = generateTemplatedFile(resume, "resume/files/author.tmpl", "data/en/author.yaml")
 	if err != nil {
 		log.Fatalf("error templating author: %v", err)
 	}
 
-	err = generateTemplatedFile(resume, "files/about.tmpl", "../data/en/sections/about.yaml")
+	err = generateTemplatedFile(resume, "resume/files/about.tmpl", "data/en/sections/about.yaml")
 	if err != nil {
 		log.Fatalf("error templating about: %v", err)
 	}
@@ -44,16 +44,20 @@ func main() {
 		fmt.Printf("key: %v\n", groupedItem.Key)
 	}
 
-	err = generateTemplatedFile(groupedWorkItems, "files/experiences.tmpl", "../data/en/sections/experiences.yaml")
+	err = generateTemplatedFile(groupedWorkItems, "resume/files/experiences.tmpl", "data/en/sections/experiences.yaml")
 	if err != nil {
 		log.Fatalf("error templating experiences: %v", err)
 	}
 
-	err = generateTemplatedFile(resume, "files/education.tmpl", "../data/en/sections/education.yaml")
+	err = generateTemplatedFile(resume, "resume/files/education.tmpl", "data/en/sections/education.yaml")
 	if err != nil {
 		log.Fatalf("error templating education: %v", err)
 	}
 
+	err = generateTemplatedFile(resume, "resume/files/skills.tmpl", "data/en/sections/skills.yaml")
+	if err != nil {
+		log.Fatalf("error templating education: %v", err)
+	}
 }
 
 func generateTemplatedFile(data interface{}, srcPath string, destPath string) error {
