@@ -1,0 +1,45 @@
+# section information
+section:
+    name: Skills
+    id: skills
+    enable: true
+    weight: 2
+    showOnNavbar: true
+    # Can optionally hide the title in sections
+    # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+    - name: Kotlin
+      logo: /images/sections/skills/kotlin.png
+      summary: "Using Kotlin to write our core, business-logic intensive applications. Gaining expertise in Kotlin language features to write expressive and maintainable code."
+      url: "https://kotlinlang.org/"
+    - name: Go
+      logo: /images/sections/skills/go.png
+      summary: "Used Go to write applications and for infrastructure-related services. I am knowledgeable about the Go ecosystem and it's philosophy for writing idiomatic Go code."
+      url: "https://golang.org/"
+    - name: SQL
+      logo: /images/sections/skills/db.png
+      summary: "I have used SQL extensively, both for persisting application data and for querying analytics databases. I am most familiar with the PostgreSQL database."
+    - name: Kubernetes
+      logo: /images/sections/skills/kubernetes.png
+      summary: "Familiar with deploying and managing applications through K8s. Member of the team that built a K8s-based application platform on Google Kubernetes Engine."
+      url: "https://kubernetes.io/"
+    - name: Terraform
+      logo: /images/sections/skills/terraform.png
+      summary: "Introduced Terraform to declaratively manage cloud infrastructure. I set up a modular Infrastructure as Code workflow using Terraform cloud."
+      url: "https://www.terraform.io/"
+    - name: Google Cloud Platform
+      logo: /images/sections/skills/gcp.png
+      summary: "Helped build out cloud infrastructure using GCP. I have experience with many GCP services, including GKE, GCS, Cloud SQL, Firestore, Pub/Sub, and Monitoring."
+      url: "https://cloud.google.com/"
+    - name: Spring Framework
+      logo: /images/sections/skills/spring.png
+      summary: "Built robust production-ready applications using Spring and Spring Boot. Leveraged GCP integrations, messaging, and Spring Actuator for for monitoring."
+      url: "https://kubernetes.io/"
+    - name: Microservices
+      logo: /images/sections/skills/microservices.png
+      summary: "Familiar with designing and managing microservices architecture. Worked in an event-based architecture, and implemented monitoring and resilience for critical services."
+      url: "https://microservices.io/"
+

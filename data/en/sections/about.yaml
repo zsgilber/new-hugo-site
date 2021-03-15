@@ -36,12 +36,12 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-  - name: Love to Learn
+  - name: Lifelong Learner
     percentage: 95
+    color: yellow
+  - name: Collaborator
+    percentage: 90
     color: orange
-  - name: Something Else
+  - name: Communicator
     percentage: 90
     color: blue
-  - name: Collaboration
-    percentage: 85
-    color: yellow
